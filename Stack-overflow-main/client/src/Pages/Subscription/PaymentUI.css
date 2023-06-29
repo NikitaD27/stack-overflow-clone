@@ -1,0 +1,120 @@
+.stripe-form {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  .stripe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .stripe-card {
+    width: 100%;
+    max-width: 60%;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.5rem;
+  }
+  
+  .stripe-card-body {
+    padding: 1rem;
+  }
+  
+  .stripe-fw-bold {
+    font-weight: bold;
+  }
+  
+  .stripe-card-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .stripe-img-fluid {
+    max-width: 3rem;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .stripe-card-input-container {
+    flex: 1;
+  }
+  
+  .stripe-form-outline {
+    position: relative;
+  }
+  
+  .stripe-form-control {
+    width: 97%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.25rem;
+  }
+  
+  .stripe-form-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transform-origin: top left;
+  }
+  
+  .stripe-form-control:focus + .stripe-form-label,
+  .stripe-form-control:not(:placeholder-shown) + .stripe-form-label {
+    transform: translate(-0.5rem, -2rem) scale(0.75);
+    color: #0069d9;
+  }
+  
+  .stripe-remove-link {
+    margin-left: auto;
+    color: #dc3545;
+    text-decoration: none;
+  }
+  
+  .stripe-remove-link:hover {
+    text-decoration: underline;
+  }
+  
+  .stripe-row {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .stripe-col-7 {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  
+  .stripe-col-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-right: 1rem;
+  }
+  
+  .stripe-col-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  
+  .stripe-btn {
+    margin-top: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 0.25rem;
+  }
+  
+  .stripe-submit-btn {
+    background-color: #007bff;
+  }
+  
+  .stripe-btn.btn-block {
+    display: block;
+    width: 20%;
+    padding: 8px;
+  }
+  

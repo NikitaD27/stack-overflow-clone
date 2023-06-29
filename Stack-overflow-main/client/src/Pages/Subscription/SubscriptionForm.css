@@ -1,0 +1,205 @@
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+  margin: 40px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 40px; /* Add the desired gap between items */
+}
+
+.flex-plans {
+  display: flex;
+  gap: 25%; /* Add the same gap value to maintain consistency */
+}
+
+
+.center-heading {
+  text-align: center;
+}
+
+.center-heading .section-title {
+  font-weight: 400;
+  font-size: 28px;
+  color: #000000;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.center-heading.colored .section-title {
+  color: #ffffff;
+}
+
+.center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000001;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.center-text.colored {
+  color: #FFC0EB;
+}
+
+.center-text p {
+  margin-bottom: 30px;
+}
+
+.pricing-item {
+  background: #ffffff;
+  box-shadow: 0 2px 58px 0 rgba(0, 0, 0, 0.13);
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.pricing-item.active .pricing-header {
+  position: relative;
+}
+
+.pricing-item.active .pricing-header .pricing-title {
+  color: #ffffff;
+}
+
+.pricing-item.active .pricing-body .price-wrapper {
+  background-image: linear-gradient(135deg, #f4e6e6 0%, #00000080 100%);
+}
+
+.pricing-item.active .pricing-body .price-wrapper .currency {
+  color: #000000;
+}
+
+.pricing-item.active .pricing-body .price-wrapper .price {
+  color: #000000;
+}
+
+.pricing-item.active .pricing-body .price-wrapper .period {
+  color: #000000;
+}
+
+.pricing-item .pricing-header {
+  text-align: center;
+  display: block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.pricing-item .pricing-header .pricing-title {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  top: -0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(135deg, #585555 0%, #613acc 100%);
+}
+
+.pricing-item .pricing-body {
+  margin-bottom: 40px;
+}
+
+.pricing-item .pricing-body .price-wrapper {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  background-image: linear-gradient(135deg, #f4eee6 0%, #5e53a7 100%);
+}
+
+.pricing-item .pricing-body .price-wrapper .currency {
+  height: 47px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #080100;
+  position: relative;
+  top: -15px;
+}
+
+.pricing-item .pricing-body .price-wrapper .price {
+  font-weight: 700;
+  font-size: 34px;
+  color: #030000;
+  letter-spacing: 2.12px;
+}
+
+.pricing-item .pricing-body .price-wrapper .period {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.88px;
+}
+
+.pricing-item .pricing-body .list li {
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.88px;
+  text-decoration: line-through;
+}
+
+.pricing-item .pricing-body .list li.active {
+  color: #3B566E;
+  text-decoration: none;
+}
+
+.pricing-item .pricing-footer {
+  text-align: center;
+}
+
+.btn-primary-line {
+    width: 160px;
+    margin: auto;
+    display: inline-block;
+    height: 44px;
+    line-height: 45px;
+    text-align: center;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: px;
+    border: 1px solid #fff;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    outline: none !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    position: relative;
+}
+.pricing-item .pricing-footer .btn-primary-line {
+  border: 1px solid #000000;
+  color: #010101;
+  height: 36px;
+  line-height: 36px;
+}
+
+.pricing-item .pricing-footer .btn-primary-line:hover {
+  background: #000000;
+  color: #fff;
+}
